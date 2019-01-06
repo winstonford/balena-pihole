@@ -4,15 +4,15 @@ volumes:
 
   pihole_config:
   dnsmasq_config:
-    
+
 services:
   # https://github.com/pi-hole/docker-pi-hole/
   # https://hub.docker.com/r/pihole/pihole/
   pihole:
     image: pihole/pihole:4.1.1_armhf
-    ports:
-      - '80:80/tcp'
-      - '80:80/udp'
+    #ports:
+    #  - '80:80/tcp'
+    #  - '80:80/udp'
     volumes:
       - 'pihole_config:/etc/pihole'
       - 'dnsmasq_config:/etc/dnsmasq.d'
