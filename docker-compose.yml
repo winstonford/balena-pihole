@@ -1,4 +1,10 @@
-version: '2'
+version: '2.1'
+
+volumes:
+
+  pihole_config:
+  dnsmasq_config:
+    
 services:
   # https://github.com/pi-hole/docker-pi-hole/
   # https://hub.docker.com/r/pihole/pihole/
