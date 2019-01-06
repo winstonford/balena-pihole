@@ -1,0 +1,14 @@
+version: '2'
+services:
+  # https://github.com/pi-hole/docker-pi-hole/
+  # https://hub.docker.com/r/pihole/pihole/
+  pihole:
+    image: pihole/pihole:4.1.1_armhf
+    ports:
+      - '80:80/tcp'
+      - '80:80/udp'
+    volumes:
+      - 'pihole_config:/etc/pihole'
+      - 'dnsmasq_config:/etc/dnsmasq.d'
+    entrypoint: ['/bin/bash', '-c', 'echo "bind-interfaces" >> /etc/dnsmasq.conf; /s6-init']
+    network_mode: host
