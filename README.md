@@ -34,7 +34,7 @@ See [balena.io's documentation on getting started](https://www.balena.io/docs/le
 
 ## Acknowledgments
 
-Huge thanks to [Kyle Harding](kylemharding@gmail.com) for the help on this project, and his contribution to this topic on the [balena.io forums](https://forums.balena.io/t/pihole-in-debian-container-on-balenaos/4645/2).  See Kyle's GitHub repository for more info, along with the other following resources to get started on building your own project with [balena.io](https://www.balena.io/)!
+Huge thanks to [Kyle Harding](mailto:kylemharding@gmail.com) for the help on this project, and his contribution to this topic on the [balena.io forums](https://forums.balena.io/t/pihole-in-debian-container-on-balenaos/4645/2).  See Kyle's GitHub repository for more info, along with the other following resources to get started on building your own project with [balena.io](https://www.balena.io/)!
 
 * https://github.com/klutchell/balena-pihole
 * https://github.com/balena-io-projects/multicontainer-getting-started
